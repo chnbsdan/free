@@ -1,0 +1,46 @@
+name: Upstream Sync
+
+on:
+  schedule:
+    # 每5分钟运行一次，使用UTC时间
+    - cron: '*/5 * * * *'
+  # 允许手动触发此工作流
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync_latest_from_upstream:
+    name: Sync latest commits from upstream repo
+    runs-on: ubuntu-latest
+    # 仅在仓库是Fork的情况下运行
+    if: ${{ github.event.repository.fork }}
+    
+    steps:
+      # 步骤1：检出您Fork仓库的代码
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          # 建议获取完整提交历史，这对某些同步操作是必要的
+          fetch-depth: 0 [citation:4]
+
+      # 步骤2：配置Git用户信息（用于提交同步记录）
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 步骤3：添加上游仓库地址、获取更新并合并
+      - name: Sync upstream changes
+        run: |
+          # 添加上游仓库，命名为upstream
+          git remote add upstream https://github.com/shaoyouvip/free.git
+          # 获取上游仓库的所有分支和更新
+          git fetch upstream
+          # 切换到您要同步的分支，例如main
+          git checkout main
+          # 将上游仓库main分支的更新合并到您的分支
+          git merge upstream/main
+          # 将合并后的结果推送到您Fork的仓库
+          git push origin main
