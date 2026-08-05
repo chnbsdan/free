@@ -2,8 +2,11 @@ name: Upstream Sync
 
 on:
   schedule:
+   # UTC 时间，每天 2:00 和 14:00 运行
+    # 北京时间：10:00 和 22:00
+    - cron: '0 2,14 * * *'
     # 每5分钟运行一次，使用UTC时间
-    - cron: '*/5 * * * *'
+    #- cron: '*/5 * * * *'
   # 允许手动触发此工作流
   workflow_dispatch:
 
