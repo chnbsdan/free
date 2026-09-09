@@ -1,226 +1,145 @@
 proxies:
-  - name: 🇶🇦QA_1|2.6MB/s
-    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-    port: 10008
-    server: z-jp1.1card.cc
-    skip-cert-verify: true
-    sni: www.cloudflare.com
-    type: trojan
-    udp: true
-    network: tcp
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_1|2.5MB/s
-    network: tcp
-    port: 13779
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇰🇷KR_1|5.0MB/s
+    network: grpc
+    port: 10047
     reality-opts:
-      public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-      short-id: "af1bdd293097b664"
-    server: 38.180.242.205
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: kr2-r.link-t7.com
     tls: true
     type: vless
     udp: true
-    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-    xudp: true
-    packet-encoding: xudp
-    servername: tesla.com
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - www.dell.com
-      path:
-        - /
-    name: 🇩🇪DE_1|1.7MB/s
-    network: http
-    port: 80
-    server: 168.119.103.176
+    uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇰🇷KR_2|4.9MB/s
+    network: grpc
+    port: 10048
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: kr3-r.link-t7.com
+    tls: true
     type: vless
     udp: true
-    uuid: 8aae31db-4a64-47e2-9f0e-8e014ae5d995
-    xudp: true
-    packet-encoding: xudp
+    uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    servername: s0.awsstatic.com
   - client-fingerprint: chrome
-    name: 🇫🇷FR_1|2.3MB/s
-    network: ws
-    password: humanity
-    port: 443
-    server: 104.18.152.143
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇰🇷KR_3|1.2MB/s
+    network: grpc
+    port: 10049
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: kr4-r.link-t7.com
+    tls: true
+    type: vless
     udp: true
+    uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇰🇷KR_4|2.1MB/s
+    network: grpc
+    port: 10046
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: kr1-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇸🇬SG_1|4.6MB/s
+    network: grpc
+    port: 10037
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: sg2-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1|1.5MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+      short-id: "55ab5559e3a6d10a"
+    server: 5.34.178.120
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+    servername: www.cloudflare.com
+  - name: ❓Other_1|4.8MB/s
+    network: ws
+    port: 80
+    server: 162.159.45.19
+    type: vless
+    udp: true
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/59.0.3071.125 Mobile Safari/537.36
-      path: /assignment
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇳🇴NO_1|2.3MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4
-      short-id: "f6b5862c1f73ab80"
-    server: 151.242.169.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: ae0d03aa-6e1e-433f-864e-06b49ed2737c
+        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /?ed=2560security=tls
     xudp: true
     packet-encoding: xudp
-    servername: frantax.my3cx.de
-  - client-fingerprint: firefox
+    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  - name: 🇬🇧GB_1|1.2MB/s
+    port: 443
+    server: 212.102.63.61
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: safari
     flow: xtls-rprx-vision
-    name: 🇳🇴NO_2|1.4MB/s
+    name: 🇺🇸US_2|3.2MB/s
     network: tcp
     port: 443
     reality-opts:
-      public-key: oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4
-      short-id: "f6b5862c1f73ab80"
-    server: 151.242.169.44
+      public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
+      short-id: "9c904d85ab262d50"
+    server: 38.244.20.152
     tls: true
     type: vless
     udp: true
-    uuid: bb736369-b88e-4f18-9453-258364819ca7
-    servername: frantax.my3cx.de
-  - name: 🇦🇹AT_1|1.3MB/s
-    port: 443
-    server: 146.70.244.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇪🇸ES_1|3.3MB/s
-    port: 443
-    server: 130.195.250.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇨🇭CH_1|2.2MB/s
-    password: None
-    port: 9443
-    server: 37.120.213.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇨🇿CZ_1|3.6MB/s
-    password: ""
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ""
-  - name: 🇺🇸US_2|2.6MB/s
+    uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+    servername: www.apple.com
+  - name: 🇺🇸US_3|3.1MB/s
     password: None
     port: 443
-    server: 149.88.21.129
+    server: jewelscollecti.icu
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇬🇧GB_1|2.5MB/s
-    port: 443
-    server: 212.102.63.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_2|1.0MB/s
-    port: 443
-    server: 149.36.50.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇳🇱NL_1|3.9MB/s
-    password: ""
-    port: 443
-    server: 149.36.51.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ""
-  - name: 🇺🇸US_3|1.1MB/s
-    password: None
-    port: 443
-    server: crosscards.site
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: crosscards.site
-  - name: 🇩🇰DK_1|3.0MB/s
-    password: None
-    port: 9443
-    server: 185.245.84.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇨🇭CH_2|1.2MB/s
-    port: 9443
-    server: 37.120.213.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_4|1.6MB/s
-    password: None
-    port: 9002
-    server: 138.199.35.213
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇧GB_2|3.2MB/s
-    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-    port: 443
-    server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-    sni: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-    tls: true
-    type: http
-    username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-    udp: true
-  - name: 🇱🇻LV_1|2.6MB/s
-    port: 443
-    server: 109.248.149.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇵🇱PL_1|2.9MB/s
-    network: tcp
-    port: 8118
-    reality-opts:
-      public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
-      short-id: ""
-    server: plll.banibus.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
-    xudp: true
-    packet-encoding: xudp
-    servername: play.googleapis.com
-  - name: 🇵🇱PL_2|3.2MB/s
-    port: 443
-    server: 37.120.156.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇨🇿CZ_2|1.0MB/s
+    sni: jewelscollecti.icu
+  - name: 🇨🇿CZ_1|1.6MB/s
     password: None
     port: 443
     server: 185.216.35.130
@@ -228,84 +147,23 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 🇸🇪SE_1|1.9MB/s
+  - name: 🇺🇸US_4|1.9MB/s
+    password: "null"
     port: 443
-    server: 146.70.242.146
+    server: kimberlymilano.icu
+    tls: true
+    type: http
+    username: "null"
+    udp: true
+    sni: kimberlymilano.icu
+  - name: 🇸🇪SE_1|1.0MB/s
+    port: 443
+    server: 146.70.242.130
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇺🇸US_5|1.5MB/s
-    password: ""
-    port: 8443
-    server: 104.219.236.83
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ""
-  - name: 🇨🇭CH_3|2.7MB/s
-    password: None
-    port: 443
-    server: 31.7.62.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇧GB_3|2.4MB/s
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇱🇻LV_2|1.5MB/s
-    password: None
-    port: 443
-    server: 109.248.147.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
-    name: 🇩🇪DE_3|2.8MB/s
-    network: ws
-    port: 443
-    server: mobileomrani.speedoraa.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1d9b478e-f82b-430b-bcea-3fe236342e1f
-    ws-opts:
-      headers:
-        Host: pas.speedoraa.ir
-        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: pas.speedoraa.ir
-  - name: 🇷🇴RO_1|2.1MB/s
-    port: 9002
-    server: 193.176.84.21
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_6|4.0MB/s
-    port: 443
-    server: voteshirleysew.club
-    tls: true
-    type: http
-    udp: true
-    sni: voteshirleysew.club
-  - name: 🇦🇹AT_2|2.3MB/s
+  - name: 🇦🇹AT_1|1.5MB/s
     password: None
     port: 443
     server: 146.70.244.2
@@ -313,320 +171,18 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 🇫🇷FR_2|2.7MB/s
-    port: 443
-    server: 103.82.101.44
-    skip-cert-verify: true
-    sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-    tls: true
-    type: http
-    udp: true
-  - name: 🇧🇪BE_1|1.2MB/s
-    port: 443
-    server: 146.70.176.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_7|1.5MB/s
-    port: 443
-    server: crosscards.site
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: crosscards.site
-  - name: 🇺🇸US_8|1.5MB/s
-    password: None
-    port: 443
-    server: efr-marktplatz.club
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: efr-marktplatz.club
-  - name: 🇩🇪DE_4|1.5MB/s
-    port: 443
-    server: 87.249.132.97
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_9|1.8MB/s
-    port: 443
-    server: carolinafreigh.fun
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: carolinafreigh.fun
-  - name: 🇺🇸US_10|2.7MB/s
-    password: "null"
-    port: 443
-    server: efr-marktplatz.club
-    tls: true
-    type: http
-    username: "null"
-    udp: true
-    sni: efr-marktplatz.club
-  - name: 🇺🇸US_11|4.1MB/s
-    port: 9002
-    server: 138.199.35.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_12|4.3MB/s
+  - name: 🇪🇨EC_1|1.7MB/s
     password: ""
-    port: 9002
-    server: 138.199.35.218
+    port: 9443
+    server: 38.165.231.71
     skip-cert-verify: true
     tls: true
     type: http
+    udp: true
     username: ""
-    udp: true
-  - name: 🇬🇧GB_4|3.0MB/s
-    password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  - name: 🇸🇪SE_2|1.9MB/s
     port: 443
-    server: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
-    sni: f6cfde13-tcxds0-tqgocx-1plv4.uk.oshuawei.com
-    tls: true
-    type: http
-    username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-    udp: true
-  - name: 🇺🇸US_13|2.7MB/s
-    port: 443
-    server: fullmanfirm.icu
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    sni: fullmanfirm.icu
-  - name: 🇺🇸US_14|1.0MB/s
-    password: None
-    port: 443
-    server: goedkoopgeluid.icu
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    sni: goedkoopgeluid.icu
-  - name: 🇺🇸US_15|1.7MB/s
-    password: ""
-    port: 443
-    server: purposebydesig.club
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ""
-    udp: true
-    sni: purposebydesig.club
-  - name: 🇺🇸US_16|2.1MB/s
-    port: 443
-    server: kimberlymilano.icu
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: kimberlymilano.icu
-  - name: 🇺🇸US_17|4.2MB/s
-    port: 443
-    server: tzoa.fun
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: tzoa.fun
-  - name: 🇬🇧GB_5|1.4MB/s
-    port: 443
-    server: 185.235.0.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇧GB_6|1.5MB/s
-    password: None
-    port: 443
-    server: 37.120.233.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇷🇴RO_2|2.9MB/s
-    password: None
-    port: 9002
-    server: 193.176.84.30
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇹IT_1|1.1MB/s
-    password: None
-    port: 443
-    server: 185.183.105.130
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇷🇸RS_1|2.6MB/s
-    port: 443
-    server: 146.70.221.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_18|2.0MB/s
-    port: 443
-    server: 149.88.21.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇹IT_2|2.5MB/s
-    port: 443
-    server: 185.183.105.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇱AL_1|1.8MB/s
-    port: 443
-    server: 87.120.103.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇵🇹PT_1|1.7MB/s
-    password: None
-    port: 443
-    server: 149.22.86.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇱🇻LV_3|2.4MB/s
-    port: 443
-    server: 109.248.147.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇲🇲MM_1|2.1MB/s
-    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-    port: 10046
-    server: z-sg2.6send.com
-    skip-cert-verify: true
-    sni: www.cloudflare.com
-    type: trojan
-    udp: true
-    network: tcp
-  - alpn:
-      - h3
-      - " h2"
-      - " http/1.1"
-    client-fingerprint: chrome
-    name: 🇩🇪DE_5|1.3MB/s
-    network: ws
-    password: yVnpewtJT__ErgqS-TI2dw
-    port: 8443
-    server: 206.1.96.244
-    skip-cert-verify: false
-    sni: lunexhost.tolkun-tv.ru
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile
-          Safari/537.36
-      path: /Lunex
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_6|1.7MB/s
-    network: xhttp
-    port: 2096
-    server: 193.227.99.253
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef04fed2-399b-4533-b423-f92c8cb66234
-    xhttp-opts:
-      host: df.monister.ir
-      mode: auto
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: df.monister.ir
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: 🇺🇸US_19|2.1MB/s
-    network: ws
-    port: 443
-    server: 69.46.46.223
-    tls: true
-    type: vless
-    udp: true
-    uuid: f43c7951-ef4a-47c8-a5a8-407c5ee45684
-    ws-opts:
-      headers:
-        Host: web-production-c66aad.up.railway.app
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
-      path: /ws/f43c7951-ef4a-47c8-a5a8-407c5ee45684
-    xudp: true
-    packet-encoding: xudp
-    servername: web-production-c66aad.up.railway.app
-  - name: ❓Other_1|1.7MB/s
-    password: ""
-    port: 1080
-    server: 47.76.175.249
-    skip-cert-verify: true
-    type: socks5
-    username: ""
-    udp: true
-  - client-fingerprint: chrome
-    name: 🇸🇬SG_1|2.2MB/s
-    network: ws
-    port: 443
-    server: cf4.466688.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: mia10.pages.dev
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /china/clips/dl?ed=2560@https://t.me/QiangLieTuiJian
-    xudp: true
-    packet-encoding: xudp
-    servername: mia10.pages.dev
-  - cipher: aes-256-cfb
-    name: 🇬🇧GB_7|4.7MB/s
-    password: amazonskr05
-    port: 443
-    server: 18.170.35.229
-    type: ss
-    udp: true
-  - name: 🇷🇴RO_3|1.3MB/s
-    port: 9002
-    server: 193.176.84.30
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-    udp: true
-  - name: 🇧🇪BE_2|1.6MB/s
-    password: None
-    port: 443
-    server: 146.70.176.242
+    server: 149.50.216.65
     skip-cert-verify: true
     tls: true
     type: http
