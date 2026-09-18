@@ -1,53 +1,320 @@
 proxies:
-  - auth: CyG0RFxMjzs41uQD4OLuHQ==
-    name: 🇧🇷BR_1|1.5MB/s
-    obfs: salamander
-    obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-    password: CyG0RFxMjzs41uQD4OLuHQ==
-    port: 20000
-    ports: 20000-30000
-    server: 137.131.167.179
-    skip-cert-verify: true
-    sni: rmgyvpn.rest
-    type: hysteria2
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵JP_1|5.5MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ImUbTZ1OKgAaiNlCf8zkeO5NnbAdKHdm2fhphvEZNxY
+      short-id: "56"
+    server: 1-jp.ap.ku-ke.cc
+    tls: true
+    type: vless
     udp: true
-  - auth: 19f72087-4591-4d72-930b-2697078ec2be
-    name: 🇩🇰DK_1|3.7MB/s
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    port: 4433
-    server: se.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: hysteria2
+    uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+    servername: cdn.jsdelivr.net
+  - client-fingerprint: chrome
+    name: 🇫🇮FI_1|3.3MB/s
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+    server: 104.245.240.6
+    tls: true
+    type: vless
     udp: true
-    sni: se.xiaoliyu.cyou
-  - auth: 19f72087-4591-4d72-930b-2697078ec2be
-    name: 🇺🇸US_1|2.7MB/s
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    port: 4433
-    server: es1.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: hysteria2
-    udp: true
-    sni: es1.xiaoliyu.cyou
-  - alpn:
-      - h3
-    auth: iy0lxplkci7qzk73
-    name: 🇫🇷FR_1|1.8MB/s
-    obfs: salamander
-    obfs-password: jogbnkm2l0c5v0cw
-    password: iy0lxplkci7qzk73
-    port: 29300
-    server: 3x.lbruh.xyz
-    skip-cert-verify: true
-    sni: 3x.lbruh.xyz
-    type: hysteria2
-    udp: true
+    uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
+    xhttp-opts:
+      host: download.nvidia.com
+      mode: auto
+      path: /
+    servername: download.nvidia.com
   - cipher: aes-256-cfb
-    name: 🇩🇪DE_1|1.0MB/s
+    name: 🇺🇸US_1|1.5MB/s
     password: amazonskr05
     port: 443
-    server: 18.194.210.177
+    server: 3.141.200.225
     type: ss
+    udp: true
+  - name: 🇺🇸US_2|1.4MB/s
+    password: sg-trojan-2026
+    port: 443
+    server: 43.173.90.202
+    skip-cert-verify: true
+    sni: sg-proxy.local
+    type: trojan
+    udp: true
+    network: tcp
+  - name: 🇹🇼TW_1|1.2MB/s
+    password: 9sK2mP8xQ7vL3nZ6
+    port: 443
+    server: 6ivh.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+  - name: 🇨🇭CH_1|1.1MB/s
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇩🇪DE_1|1.8MB/s
+    password: None
+    port: 443
+    server: 149.36.50.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_3|2.7MB/s
+    port: 443
+    server: voteshirleysew.club
+    tls: true
+    type: http
+    udp: true
+    sni: voteshirleysew.club
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: mlkem768x25519plus.native.0rtt.ej79qYWofIwiySjKHulae3PuxzpTQM8GIg9yG1QyBE0
+    name: 🇮🇷IR_1|2.1MB/s
+    network: tcp
+    port: 10265
+    server: test.netfa360.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5f9e0d88-2da5-4f6c-b075-c528315e7d7f
+    servername: test.netfa360.ir
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    name: 🇭🇰HK_1|1.3MB/s
+    network: ws
+    port: 8581
+    server: 23.249.18.144
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: cdn8848.776676.xyz
+      path: /channels/act
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    udp: true
+    servername: cdn8848.776676.xyz
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: 🇩🇪DE_2|1.1MB/s
+    password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
+    port: 59924
+    server: 130.61.146.82
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: 🇩🇪DE_3|1.2MB/s
+    password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
+    port: 59924
+    server: 130.61.235.30
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: 🇬🇧GB_1|1.1MB/s
+    password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
+    port: 61312
+    server: 129.151.65.24
+    type: ss
+    udp: true
+  - auth: github.com/Alvin9999-newpac/fanqiang
+    name: 🇳🇱NL_1|2.5MB/s
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 29900
+    server: 178.18.147.66
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    udp: true
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: 🇬🇧GB_2|2.8MB/s
+    password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=
+    port: 61312
+    server: 144.24.226.249
+    type: ss
+    udp: true
+  - name: 🇬🇧GB_3|1.3MB/s
+    password: ""
+    port: 443
+    server: 185.235.0.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ""
+    udp: true
+  - name: 🇺🇸US_4|1.3MB/s
+    port: 443
+    server: purposebydesig.club
+    skip-cert-verify: false
+    tls: true
+    type: http
+    udp: true
+    sni: purposebydesig.club
+  - name: 🇦🇹AT_1|1.1MB/s
+    password: None
+    port: 443
+    server: 146.70.244.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_4|1.1MB/s
+    port: 443
+    server: 37.120.233.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇷🇸RS_1|2.2MB/s
+    port: 443
+    server: 146.70.221.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇵🇱PL_1|1.3MB/s
+    password: None
+    port: 443
+    server: 37.120.156.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇦🇹AT_2|1.0MB/s
+    password: None
+    port: 443
+    server: 146.70.244.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_5|1.1MB/s
+    port: 443
+    server: crosscards.site
+    sni: crosscards.site
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_6|3.2MB/s
+    password: "null"
+    port: 443
+    server: crosscards.site
+    sni: crosscards.site
+    tls: true
+    type: http
+    username: "null"
+    udp: true
+  - name: 🇺🇸US_7|2.0MB/s
+    port: 443
+    server: mmgr.club
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    sni: mmgr.club
+  - name: 🇺🇸US_8|1.1MB/s
+    password: "null"
+    port: 443
+    server: mmgr.club
+    tls: true
+    type: http
+    username: "null"
+    udp: true
+    sni: mmgr.club
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇳🇱NL_2|1.5MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
+    server: 150.251.141.28
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
+    udp: true
+    servername: nolan.shhflow.xyz
+  - name: 🇩🇪DE_4|1000KB/s
+    password: None
+    port: 443
+    server: 149.36.50.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_5|1.9MB/s
+    password: None
+    port: 443
+    server: 212.102.63.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_6|1.1MB/s
+    password: None
+    port: 443
+    server: 212.102.63.31
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇸🇪SE_1|1.9MB/s
+    port: 443
+    server: 146.70.242.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_9|1.2MB/s
+    port: 443
+    server: 149.88.21.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_7|1.1MB/s
+    port: 443
+    server: 185.235.0.66
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: 🇩🇪DE_5|1.2MB/s
+    password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
+    port: 59924
+    server: 130.61.82.183
+    type: ss
+    udp: true
+  - name: 🇺🇸US_10|1.0MB/s
+    port: 443
+    server: jgwynphotoarts.pro
+    skip-cert-verify: false
+    tls: true
+    type: http
+    udp: true
+    sni: jgwynphotoarts.pro
+  - name: 🇳🇱NL_3|1.5MB/s
+    port: 443
+    server: 5.255.118.82
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
