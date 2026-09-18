@@ -1,96 +1,19 @@
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|5.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: ImUbTZ1OKgAaiNlCf8zkeO5NnbAdKHdm2fhphvEZNxY
-        short-id: "56"
-      server: 1-jp.ap.ku-ke.cc
-      servername: cdn.jsdelivr.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_1|3.3MB/s"
-      network: xhttp
-      port: 443
-      reality-opts:
-        public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-      server: 104.245.240.6
-      servername: download.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-      xhttp-opts:
-        host: download.nvidia.com
-        mode: auto
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.141.200.225
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
-      password: sg-trojan-2026
-      port: 443
-      server: 43.173.90.202
+    - name: "\U0001F1E8\U0001F1F3CN_1|4.9MB/s"
+      password: ""
+      port: 1080
+      server: 103.210.161.8
       skip-cert-verify: true
-      sni: sg-proxy.local
-      type: trojan
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s"
-      password: 9sK2mP8xQ7vL3nZ6
-      port: 443
-      server: 6ivh.pnuqcnp.cn
-      skip-cert-verify: true
-      sni: images.ctfassets.net
-      type: anytls
-      udp: true
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.1MB/s"
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-      password: None
-      port: 443
-      server: 149.36.50.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
-      port: 443
-      server: voteshirleysew.club
-      tls: true
-      type: http
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: mlkem768x25519plus.native.0rtt.ej79qYWofIwiySjKHulae3PuxzpTQM8GIg9yG1QyBE0
-      name: "\U0001F1EE\U0001F1F7IR_1|2.1MB/s"
-      network: tcp
-      port: 10265
-      server: test.netfa360.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5f9e0d88-2da5-4f6c-b075-c528315e7d7f
+      type: socks5
+      username: ""
     - client-fingerprint: chrome
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
       network: ws
-      port: 8581
-      server: 23.249.18.144
+      port: 2087
+      server: 104.19.47.206
       servername: cdn8848.776676.xyz
       skip-cert-verify: true
       tls: true
@@ -99,202 +22,35 @@ proxies:
       ws-opts:
         headers:
             Host: cdn8848.776676.xyz
-        path: /channels/act?ed=2560
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
-      password: 1W4RvEFjyad78wExwpCcWKQ0AqXDGPqCFRxuxsmFLmk=
-      port: 59924
-      server: 130.61.146.82
-      type: ss
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s"
-      password: m/CrE+EuNElAAVP1IrhSyQYq0EUT+XiDckrdlPOdMFA=
-      port: 59924
-      server: 130.61.235.30
-      type: ss
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-      password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
-      port: 61312
-      server: 129.151.65.24
-      type: ss
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 29900
-      server: 178.18.147.66
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_2|2.8MB/s"
-      password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=
-      port: 61312
-      server: 144.24.226.249
-      type: ss
-    - name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
-      password: ""
-      port: 443
-      server: 185.235.0.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
-      password: null
-      port: 443
-      server: purposebydesig.club
-      skip-cert-verify: false
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E6\U0001F1F9AT_1|1.1MB/s"
-      password: None
-      port: 443
-      server: 146.70.244.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_4|1.1MB/s"
-      password: null
-      port: 443
-      server: 37.120.233.50
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F7\U0001F1F8RS_1|2.2MB/s"
-      port: 443
-      server: 146.70.221.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F5\U0001F1F1PL_1|1.3MB/s"
-      password: None
-      port: 443
-      server: 37.120.156.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E6\U0001F1F9AT_2|1.0MB/s"
-      password: None
-      port: 443
-      server: 146.70.244.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
-      port: 443
-      server: crosscards.site
-      sni: crosscards.site
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_6|3.2MB/s"
-      password: "null"
-      port: 443
-      server: crosscards.site
-      sni: crosscards.site
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
-      password: null
-      port: 443
-      server: mmgr.club
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_8|1.1MB/s"
-      password: "null"
-      port: 443
-      server: mmgr.club
-      tls: true
-      type: http
-      username: "null"
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
-      server: 150.251.141.28
-      servername: nolan.shhflow.xyz
-      skip-cert-verify: true
-      tfo: false
+        path: /ad?ed=2560
+    - client-fingerprint: chrome
+      encryption: mlkem768x25519plus.random.0rtt.H4TEngoua4IvSuVQm_V-eUtsc1ZWzAyp47V-OJqFjcdJbRw56QiP3-JTtphA3iR7JfpNKWu9szw2gsu_sKR0xeVZTTZ8uGYADlwN82cqYCY_gqCFCpe4VWA_nkTDioJtc8Na1Fxg8BMe3JGY5yIC9Sdjjgo8Bqtg5eBkP7UX6YLLGlySAJKYT8hbTKTAhfEZQYnN4BySxowU46PCWasPBqkgSLvI_0QuGOtR0Uo2HrCufroBU9o0Iok8b4SIpMoCv4shPhTEo-CCOFiEQJEM9skBN9du7bMR3TLE1MB4SPNQASkIAEirTIa4xZBOwFrF8Pg9EBV8MWJq2fsVjbqRFyQt87VbY3MZyvCKsiokOOR2DyWIejKXPude-AE8IvJfnhITCoRtpHIS48toDYQ07zpVYoqRCCUKhLAEdmdIFSbGQbE9EBwSBfSmmeVPrruT0OrIMIQYRXo58jZWuJaGTekgSCZ77MxRE5SDzbamFDQvRkUmDypaLYjKh5FBnzduzXHJfKB61iWCHgeTVseyXVCSRBRVxHSC0PXAt2Wh_AmEAG26JcTNelm6NuIqPzk8sipqd3gxLOKtiDCAw4UftWwKfEgyWajALRxJYJDDTAi2UTygohMZ8_lpKstfKvkeZqXPFYw30lxDXfXJZ-aDZciTt1kV7sdNooKYEXJg9cOHQIdGIcaI6nq8_9Iln3SKnJMxKqzK-ElMDzysekOZ84ybqhFcWHaDu7J_rfp0bNlcyubDaQAjHtFdB5FTKzZcxJGAGhS0LHd4ABQS_Xe42iGQGbkh37O0LUK6rLlzRiF7ITAcbDOsN-OBUvpCFRa1OfOoWtMCuel_UQIgmHJwPrYH7tp4CzM_LsSDIUEqxhsvBPMAOujDYVNk-coGJaWtRmFK79KwYotiJUu1S3KAT9E94VIuLaQYDDQlwPidxVMbLEpefJEU1QgbkRAtBmAvIBMgnoEKEJEj6AoMZ3o1RroKzHOBH2pun8YRVMKgotSHtyOfWfBVjpy7_qyuQOFj4LdsCKAjEHIuGlpPNMyB8fXNkEyxI1Y6whVd1bqejQJPEOUED-RZA7jGr3JuTaJE_oi08HcenfyP4rESRZY8W6MxZTSnpimJx1lbzePBBIJYf_F298sOYfGqQ3otzTNFOWA_gGaqAisN0ibAOPa98MOtx_xtHrSMfgW-h5KnOVaE0OKRFcMX7-l7jYZ4dtl6YyYQBmMP8uh2nCFdH8B-gMYXncQSBpvJNegv3NqZIZFkW2c9ShCO79Z0FQB9kqA5KJukeobOs2W21pSG2kI6guFZZbtMgXaLmCYM85a1nKuvwRMdLUQEtmJbtOWyxpovqwDE7kiKwgKFUMCvJ1B4o9Je2xZ6zmdnlpmWDKkZEjcTKYwoQRwZh5pZDSsl6YcwbBE0zowBOgsHFpIc4gwqyBp2NLS-9ciTf0NdALGRDdZRr8GkfOUYQ6tlQstzFaqLh0VRiVGGE0BL-tJmGEeUd9iF7hJTsMN7vEQDpftABBN4ZUNGWli22XZxRDIUo1NJ05L8j4oSuULGbBjA8jhXNdBI_XE1SXoXdocbtybkz00
+      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+      network: xhttp
+      port: "443"
+      server: 31.185.108.48
+      servername: daredevil2.manufacturingcity.ir
       tls: true
       type: vless
-      uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-    - name: "\U0001F1E9\U0001F1EADE_4|1000KB/s"
-      password: None
-      port: 443
-      server: 149.36.50.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_5|1.9MB/s"
-      password: None
-      port: 443
-      server: 212.102.63.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_6|1.1MB/s"
-      password: None
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F8\U0001F1EASE_1|1.9MB/s"
-      port: 443
-      server: 146.70.242.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s"
-      password: null
-      port: 443
-      server: 149.88.21.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_7|1.1MB/s"
-      password: null
-      port: 443
-      server: 185.235.0.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
+      udp: true
+      uuid: id:Daredevil_404
+      xhttp-opts:
+        host: daredevil2.manufacturingcity.ir
+        mode: auto
+        path: /TelegramChannel:@daredevil_404
+        x-padding-bytes: 100-1000
+      xudp: true
     - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_5|1.2MB/s"
-      password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
+      name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+      password: 8DHlrsArgAkSt0/XFCIPJRbGvI/s0QTeTlVLkxhpUoI=
       port: "59924"
-      server: 130.61.82.183
+      server: 130.61.85.241
       type: ss
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_10|1.0MB/s"
-      password: null
+    - name: "\U0001F1F8\U0001F1EASE_1|1004KB/s"
+      password: None
       port: 443
-      server: jgwynphotoarts.pro
-      skip-cert-verify: false
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
-      password: null
-      port: 443
-      server: 5.255.118.82
+      server: 79.142.77.63
       skip-cert-verify: true
       tls: true
       type: http
