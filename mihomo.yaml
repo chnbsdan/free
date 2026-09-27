@@ -1,137 +1,162 @@
 proxies:
-  - client-fingerprint: chrome
-    name: 🇭🇰HK_1|4.0MB/s
-    network: ws
-    port: 8030
-    server: 54.46.72.234
-    tls: true
-    type: vless
+  - auth: f15900b5-f86b-432d-a67c-45325dc66a2d
+    down: 100
+    name: 🇭🇰HK_1|1.2MB/s
+    password: f15900b5-f86b-432d-a67c-45325dc66a2d
+    port: 50898
+    ports: 50000-53000
+    server: 82.152.160.245
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    up: 20
     udp: true
-    uuid: 37665857-8b6e-4daa-8231-3e2927221558
-    ws-opts:
-      headers:
-        Host: spjd.cbc.qzz.io
-      path: /proxyip=ProxyIP.US.CMLiussss.net
-    servername: spjd.cbc.qzz.io
-  - client-fingerprint: random
-    name: 🇯🇵JP_1|5.3MB/s
-    network: ws
+  - name: 🇵🇱PL_1|1.5MB/s
+    password: None
     port: 443
-    server: cf.877774.xyz
+    server: 37.120.156.18
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-    ws-opts:
-      headers:
-        Host: yf.962456.xyz
-      path: /proxyip=kr.william.us.ci
-    servername: yf.962456.xyz
-  - client-fingerprint: chrome
-    name: 🇯🇵JP_2|3.1MB/s
-    network: ws
+  - name: 🇷🇸RS_1|1.3MB/s
     port: 443
-    server: cf.877774.xyz
+    server: 146.70.221.34
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
-    ws-opts:
-      headers:
-        Host: styx.dpdns.org
-      path: /
-    servername: styx.dpdns.org
-  - client-fingerprint: chrome
-    name: 🇯🇵JP_3|5.3MB/s
-    network: ws
+  - name: 🇬🇧GB_1|1.4MB/s
     port: 443
-    server: cf.3666888.xyz
+    server: 212.102.63.61
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
-    ws-opts:
-      headers:
-        Host: 819.18827466.bot.cd
-      path: /
-    servername: 819.18827466.bot.cd
-  - client-fingerprint: chrome
-    name: 🇯🇵JP_4|4.6MB/s
-    network: ws
+  - name: 🇳🇱NL_1|1.1MB/s
+    password: None
     port: 443
-    server: cf.130519.xyz
+    server: 149.36.51.129
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
-    ws-opts:
-      headers:
-        Host: 819.18827466.bot.cd
-      path: /
-    servername: 819.18827466.bot.cd
-  - client-fingerprint: chrome
-    name: 🇯🇵JP_5|4.7MB/s
-    network: ws
+  - name: 🇩🇪DE_1|1.2MB/s
     port: 443
-    server: cf.877774.xyz
+    server: 149.36.50.1
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
-    ws-opts:
-      headers:
-        Host: 255038.xyz
-      path: /
-    servername: 255038.xyz
-  - cipher: aes-256-cfb
-    name: 🇯🇵JP_6|5.8MB/s
-    password: amazonskr05
+  - name: 🇬🇧GB_2|1.0MB/s
+    password: None
+    port: 9443
+    server: 37.120.233.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇭🇺HU_1|1.1MB/s
+    password: None
     port: 443
-    server: 18.179.37.17
-    type: ss
+    server: 146.70.203.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇸🇪SE_1|1.8MB/s
+    password: None
+    port: 443
+    server: 146.70.242.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇭🇷HR_1|1.3MB/s
+    port: 443
+    server: 154.47.29.161
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_3|1.0MB/s
+    password: None
+    port: 443
+    server: 37.120.233.18
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_4|1.7MB/s
+    port: 443
+    server: 185.235.0.2
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
   - client-fingerprint: chrome
-    name: 🇸🇬SG_1|3.6MB/s
-    network: ws
+    encryption: none
+    grpc-opts:
+      grpc-service-name: TunService
+    name: 🇫🇮FI_1|1.8MB/s
+    network: grpc
     port: 8443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
-    ws-opts:
-      headers:
-        Host: aaa.abcai.online
-      path: /vless-argo
-    servername: aaa.abcai.online
-  - client-fingerprint: chrome
-    name: 🇯🇵JP_7|5.4MB/s
-    network: ws
-    port: 8443
-    server: cf.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-    ws-opts:
-      headers:
-        Host: edgetunnel-4uw.pages.dev
-      path: /
-    servername: edgetunnel-4uw.pages.dev
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇯🇵JP_8|4.8MB/s
-    network: tcp
-    port: 20270
     reality-opts:
-      public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-      short-id: "89fecfdaf45cd76d"
-    server: jp-1.gsafevpnapi.com
+      public-key: QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo
+      short-id: ""
+    server: 122.8.45.2
     tls: true
     type: vless
-    uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
     udp: true
-    servername: www.yahoo.com
+    uuid: 3ae00194-1bc0-0bf4-9564-3c55b1c6d485
+    xudp: true
+    packet-encoding: xudp
+    servername: www.hp.com
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_1|3.5MB/s
+    network: ws
+    password: humanity
+    port: 443
+    server: 162.159.36.20
+    skip-cert-verify: false
+    sni: www.calmlunch.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /assignment
+  - name: 🇬🇧GB_5|1.9MB/s
+    password: ""
+    port: 443
+    server: 212.102.63.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ""
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇳🇱NL_2|2.1MB/s
+    network: tcp
+    port: 443
+    server: nl-dedic-mori-4.failspace.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+    xudp: true
+    packet-encoding: xudp
+    servername: nl-dedic-mori-4.failspace.top
+  - name: 🇪🇸ES_1|1.2MB/s
+    password: None
+    port: 443
+    server: 82.102.17.178
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
