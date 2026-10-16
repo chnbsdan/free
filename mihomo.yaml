@@ -1,301 +1,116 @@
 proxies:
+  - cipher: aes-128-gcm
+    name: 🇯🇵JP_1|4.9MB/s
+    password: c855b71e-f3c2-442a-9429-0844eb4346c5
+    port: 40018
+    server: ruot.ayucloudservices.nl
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    encryption: none
-    name: 🇵🇱PL_1|2.9MB/s
-    network: xhttp
-    port: 443
-    server: 195.137.226.11
+    name: 🇸🇬SG_1|2.4MB/s
+    network: ws
+    port: 8443
+    server: news.zoom.us
     tls: true
     type: vless
     udp: true
-    uuid: 54d67aa6-fe54-4b8e-b3b6-62b7e043eb35
-    xhttp-opts:
-      host: mobile.zandix.ir
-      mode: auto
+    uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+    ws-opts:
+      headers:
+        Host: u.srilankangrill.online
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /
-      x-padding-bytes: 100-1000
     xudp: true
     packet-encoding: xudp
-    servername: mobile.zandix.ir
-  - name: 🇨🇿CZ_1|2.1MB/s
-    port: 443
-    server: 185.216.35.130
-    skip-cert-verify: true
+    servername: u.srilankangrill.online
+  - client-fingerprint: chrome
+    name: 🇸🇬SG_2|2.3MB/s
+    network: ws
+    port: 8443
+    server: 141.193.213.20
     tls: true
-    type: http
+    type: vless
     udp: true
-  - name: 🇨🇭CH_1|1.3MB/s
-    port: 443
-    server: 31.7.62.50
-    skip-cert-verify: true
+    uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+    ws-opts:
+      headers:
+        Host: u.srilankangrill.online
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: u.srilankangrill.online
+  - client-fingerprint: chrome
+    name: 🇸🇬SG_3|2.5MB/s
+    network: ws
+    port: 8443
+    server: 141.193.213.21
     tls: true
-    type: http
+    type: vless
     udp: true
-  - name: 🇧🇪BE_1|1.8MB/s
-    port: 443
-    server: 146.70.123.98
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇹AT_1|1.8MB/s
-    port: 443
-    server: 146.70.244.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇰DK_1|2.3MB/s
-    port: 9443
-    server: 185.245.84.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇱AL_1|1.1MB/s|K001-260618
-    port: 9443
-    server: 31.171.155.210
-    skip-cert-verify: true
-    sub_tag: K001-260618
-    tls: true
-    type: http
-    udp: true
-  - name: 🇳🇴NO_1|2.0MB/s
-    port: 9443
-    server: 146.70.170.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_1|1.8MB/s
-    port: 9443
-    server: 213.177.229.161
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_2|1.8MB/s
+    uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+    ws-opts:
+      headers:
+        Host: u.srilankangrill.online
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: u.srilankangrill.online
+  - name: 🇩🇪DE_1|1.9MB/s
     port: 443
     server: 79.127.156.177
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇺🇸US_1|2.7MB/s
-    network: ws
-    port: 2095
-    server: www.epicgames.com
+  - name: 🇺🇸US_1|1.8MB/s
+    port: 443
+    server: 12.202.180.118
     skip-cert-verify: true
-    tls: false
+    tls: true
+    type: http
+    udp: true
+  - name: 🇯🇵JP_2|2.0MB/s
+    port: 49467
+    server: 103.85.27.30
     type: vless
+    uuid: 44059c36-91ab-47f4-d8ca-a43dafd788b2
     udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: openapi.next-ai.us.ci
-      path: /
-  - name: 🇮🇹IT_1|1.0MB/s
-    port: 443
-    server: 185.183.105.130
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_2|1.2MB/s
-    password: ""
-    port: 9443
-    server: 38.95.111.226
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ""
-  - name: 🇷🇸RS_1|1.0MB/s
-    port: 443
-    server: 146.70.221.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇪IE_1|1.0MB/s
-    port: 443
-    server: 149.88.96.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_3|3.5MB/s
-    port: 443
-    server: 149.36.50.157
-    skip-cert-verify: true
-    tls: true
-    type: http
+    network: tcp
+  - cipher: aes-256-gcm
+    name: 🇦🇪AE_1|2.8MB/s
+    password: c855b71e-f3c2-442a-9429-0844eb4346c5
+    port: 22041
+    server: ruot.ayucloudservices.nl
+    type: ss
     udp: true
   - name: 🇬🇧GB_1|1.2MB/s
     port: 443
-    server: 185.164.138.156
+    server: 84.17.50.193
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇩🇪DE_4|2.5MB/s
-    port: 443
-    server: 172.64.69.89
+  - name: 🇸🇬SG_4|4.6MB/s
+    password: "1234"
+    port: 2080
+    server: 13.250.6.200
     skip-cert-verify: true
-    tls: true
     type: http
+    username: "1234"
     udp: true
-  - name: 🇷🇸RS_2|1.2MB/s
-    port: 443
-    server: 146.70.221.34
+  - name: 🇸🇬SG_5|1.8MB/s
+    password: "1234"
+    port: 2080
+    server: 47.129.200.52
     skip-cert-verify: true
-    tls: true
     type: http
+    username: "1234"
     udp: true
-  - name: 🇨🇿CZ_2|3.1MB/s
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_3|1012KB/s
-    port: 443
-    server: 167.88.60.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇧🇦BA_1|1.2MB/s
-    port: 443
-    server: 185.164.35.16
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇵🇱PL_2|1.1MB/s
-    password: None
-    port: 443
-    server: 37.120.156.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇨🇦CA_1|1.2MB/s
-    port: 443
-    server: 206.223.183.13
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇧GB_2|1.7MB/s
-    port: 9443
-    server: 84.17.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_5|2.1MB/s
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇩🇪DE_6|2.0MB/s
-    port: 443
-    server: 152.233.20.206
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇪GE_1|1.4MB/s
-    port: 443
-    server: 195.54.178.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇪IE_2|2.2MB/s
-    port: 443
-    server: 149.88.96.12
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇱IL_1|1.2MB/s
-    port: 443
-    server: 169.150.248.17
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_4|1.0MB/s
-    port: 443
-    server: 68.235.56.59
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇷🇺RU_1|1.0MB/s
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: "111111"
-    server: 37.143.15.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4599572f-bcfa-461e-bc73-d80e1ea65aa6
-    xudp: true
-    packet-encoding: xudp
-    servername: 5post-gate.x5.ru
-  - client-fingerprint: random
-    encryption: none
-    name: 🇯🇵JP_1|3.1MB/s
-    network: ws
-    port: 443
-    server: 43.168.16.67
-    tls: true
-    type: vless
-    udp: true
-    uuid: 99ea2764-f1df-4aa8-b01d-0adb42cc2f77
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: node.kyma.dpdns.org
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      max-early-data: 2048
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: node.kyma.dpdns.org
-  - client-fingerprint: random
-    encryption: none
-    name: 🇭🇰HK_1|5.4MB/s
-    network: ws
-    port: 443
-    server: 43.175.131.30
-    tls: true
-    type: vless
-    udp: true
-    uuid: 99ea2764-f1df-4aa8-b01d-0adb42cc2f77
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: node.kyma.dpdns.org
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      max-early-data: 2048
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: node.kyma.dpdns.org
 proxy-groups:
   - name: 🚀 节点选择
     type: select
