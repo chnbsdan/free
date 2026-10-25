@@ -1,161 +1,271 @@
 proxies:
-  - name: 🇸🇬SG_1|3.6MB/s
-    password: "1234"
-    port: 2080
-    server: 13.212.87.168
-    skip-cert-verify: true
-    type: http
-    username: "1234"
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_1|1.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.165
+    tls: true
+    type: vless
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇸🇬SG_2|2.3MB/s
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: 817aa69.default.nintendo.com:112719
-      mode: tls
-    port: 2377
-    server: 18.143.63.164
-    type: ss
+    uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+    servername: gb.ozon.ru
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇵🇱PL_1|2.0MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+      short-id: "afee962d"
+    server: pl1.mycloud1.org
+    tls: true
+    type: vless
     udp: true
-  - name: 🇸🇬SG_3|1.6MB/s
-    password: "1234"
-    port: 2080
-    server: 13.212.90.38
-    skip-cert-verify: true
-    type: http
-    username: "1234"
+    uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+    servername: pl1.mycloud1.org
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇹🇷TR_1|1020KB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 147.45.46.169
+    tls: true
+    type: vless
     udp: true
-  - name: 🇸🇬SG_4|4.2MB/s
-    password: "1234"
-    port: 2080
-    server: 18.143.167.6
-    skip-cert-verify: true
-    type: http
-    username: "1234"
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    servername: abuse.ozon.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_2|1.8MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 45.151.71.142
+    tls: true
+    type: vless
     udp: true
-  - name: 🇸🇬SG_5|4.8MB/s
-    password: "1234"
-    port: 2080
-    server: 13.212.190.30
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇮🇳IN_1|1.2MB/s
-    port: 52200
-    server: 120.232.204.58
+    uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+    xudp: true
+    packet-encoding: xudp
+    servername: gb.ozon.ru
+  - name: 🇨🇭CH_1|1008KB/s
+    password: None
+    port: 9443
+    server: 37.120.213.210
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - cipher: chacha20-ietf
-    name: 🇺🇸US_1|2.8MB/s
-    obfs: tls1.2_ticket_auth
-    obfs-param: f7d23929.douyin.com
-    password: di15PV
-    port: 29790
-    protocol: auth_aes128_md5
-    protocol-param: 23929:563537032
-    server: api.meituan88.com
-    type: ssr
+  - name: 🇬🇧GB_3|1.8MB/s
+    port: 443
+    server: 84.17.50.193
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-  - name: 🇺🇸US_2|3.7MB/s
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_4|1.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 185.88.173.215
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    servername: gb.ozon.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_5|1.7MB/s
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.142
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+    network: tcp
+    servername: gb.ozon.ru
+  - name: 🇺🇸US_1|1.3MB/s
     port: 8443
     server: 154.81.36.92
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇸🇬SG_6|3.9MB/s
-    password: "1234"
-    port: 2080
-    server: 54.151.160.36
+  - name: 🇺🇸US_2|1.4MB/s
+    password: ""
+    port: 22222
+    server: 64.118.155.2
     skip-cert-verify: true
     type: http
-    username: "1234"
+    udp: true
+    username: ""
+  - name: 🇫🇷FR_1|1.8MB/s
+    port: 9443
+    server: 138.199.47.247
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇮🇹IT_1|1018KB/s
+    port: 443
+    server: 185.183.105.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_3|1.7MB/s
+    port: 9443
+    server: 154.47.25.78
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇨🇦CA_1|1.3MB/s
+    port: 9443
+    server: 149.88.98.81
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_6|1.5MB/s
+    port: 9443
+    server: 84.17.50.129
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
   - client-fingerprint: chrome
-    name: 🇫🇷FR_1|2.0MB/s
-    network: ws
-    password: humanity
-    port: 443
-    server: 162.159.36.20
-    skip-cert-verify: false
-    sni: www.calmlunch.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /assignment
-  - name: 🇸🇬SG_7|4.0MB/s
-    password: "1234"
-    port: 2080
-    server: 54.251.149.207
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇸🇬SG_8|4.5MB/s
-    password: "1234"
-    port: 2080
-    server: 13.212.14.88
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇸🇬SG_9|4.3MB/s
-    password: "1234"
-    port: 2080
-    server: 13.229.91.101
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇸🇬SG_10|4.1MB/s
-    password: "1234"
-    port: 2080
-    server: 13.250.6.249
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇸🇬SG_11|4.1MB/s
-    password: "1234"
-    port: 2080
-    server: 13.250.8.222
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - name: 🇸🇬SG_12|4.5MB/s
-    password: "1234"
-    port: 2080
-    server: 13.212.235.123
-    skip-cert-verify: true
-    type: http
-    username: "1234"
-    udp: true
-  - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇷🇺RU_1|1.3MB/s
+    name: 🇬🇧GB_7|2.4MB/s
     network: tcp
     port: 443
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: ""
-    server: 45.9.118.207
+    server: 147.45.46.161
     tls: true
     type: vless
     udp: true
-    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    xudp: true
+    packet-encoding: xudp
+    servername: gb.ozon.ru
+  - client-fingerprint: firefox
+    name: 🇺🇸US_4|1.2MB/s
+    network: xhttp
+    port: 443
+    server: 87.58.199.144
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
+    xhttp-opts:
+      host: dmbdnpctq8hjxx.hat.onl
+      mode: auto
+      path: /hls/014373eq/seg
+    xudp: true
+    packet-encoding: xudp
+    servername: dmbdnpctq8hjxx.hat.onl
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_1|1.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 193.160.140.120
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
     xudp: true
     packet-encoding: xudp
     servername: ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_8|1011KB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 147.45.47.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    xudp: true
+    packet-encoding: xudp
+    servername: gb.ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇷FR_2|1.4MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 147.45.47.91
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    xudp: true
+    packet-encoding: xudp
+    servername: ozon.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_2|2.0MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 193.160.140.99
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    xudp: true
+    packet-encoding: xudp
+    servername: ozon.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_9|1.2MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 193.160.141.16
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    xudp: true
+    packet-encoding: xudp
+    servername: gb.ozon.ru
 proxy-groups:
   - name: 🚀 节点选择
     type: select
