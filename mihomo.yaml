@@ -1,32 +1,337 @@
 proxies:
-  - name: 🇺🇸US_1|1.2MB/s
-    port: 22222
-    server: 64.118.155.2
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_1|2.2MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.176
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    servername: gb.ozon.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇷TR_1|2.7MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 193.160.141.27
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    servername: abuse.ozon.ru
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_1|4.2MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.145
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+    servername: abuse.ozon.ru
+  - name: 🇦🇹AT_1|1.3MB/s
+    port: 443
+    server: 146.70.244.2
     skip-cert-verify: true
+    tls: true
     type: http
     udp: true
-  - name: 🇺🇸US_2|3.7MB/s
-    port: 8443
-    server: 154.81.36.92
+  - name: 🇱🇺LU_1|1.0MB/s
+    port: 9443
+    server: 185.221.132.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇮🇪IE_1|1.3MB/s
+    password: None
+    port: 443
+    server: 149.88.96.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇧🇪BE_1|1.9MB/s|R002-260618
+    password: None
+    port: 443
+    server: 146.70.176.242
+    skip-cert-verify: true
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+  - name: 🇫🇷FR_1|1.1MB/s
+    password: None
+    port: 443
+    server: 149.102.245.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_1|1.0MB/s
+    port: 443
+    server: 12.202.180.118
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: 🇷🇺RU_1|1.2MB/s
+    name: 🇷🇺RU_2|1.1MB/s
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.169
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
+    network: tcp
+    servername: abuse.ozon.ru
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_3|1.1MB/s
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 193.160.141.8
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    network: tcp
+    servername: ozon.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇫🇷FR_2|1.1MB/s
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.167
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    network: tcp
+    servername: abuse.ozon.ru
+  - name: 🇬🇧GB_2|1.2MB/s
+    port: 443
+    server: 37.120.233.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_2|2.6MB/s
+    port: 8443
+    server: 154.81.36.92
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇨🇭CH_1|1.1MB/s
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇪🇪EE_1|1016KB/s
+    port: 9443
+    server: 95.153.32.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇫🇷FR_3|1016KB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: 45.151.71.167
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    servername: abuse.ozon.ru
+  - name: 🇬🇧GB_3|2.1MB/s
+    port: 443
+    server: 185.164.138.156
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇬🇧GB_4|1.8MB/s
+    port: 9443
+    server: 84.17.50.214
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇸🇪SE_1|1.3MB/s
+    password: None
+    port: 443
+    server: 146.70.242.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇪🇪EE_2|1.6MB/s
+    port: 9443
+    server: 95.153.31.66
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇧🇦BA_1|1.6MB/s
+    port: 443
+    server: 185.164.35.16
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇸🇮SI_1|1.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+      short-id: "88d9dc52ef39c8bd"
+    server: 92.42.201.107
+    tls: true
+    type: vless
+    udp: true
+    uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
+    xudp: true
+    packet-encoding: xudp
+    servername: node-slo02.rkitman.ru
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇩🇪DE_1|1.1MB/s
+    network: xhttp
+    port: 2052
+    reality-opts:
+      public-key: 3ds1sPK8MuZVr6IOAwjRx0h_2IZMZ2v_RzNGl3iYwno
+      short-id: "025ee5be0c789ece"
+    server: 2.27.206.215
+    tls: true
+    type: vless
+    udp: true
+    uuid: fafc7c16-f890-45ee-a856-02df225172dd
+    xhttp-opts:
+      mode: stream-up
+      path: /cdn/api
+    xudp: true
+    packet-encoding: xudp
+    servername: yastatic.net
+  - name: 🇺🇸US_3|1.2MB/s
+    password: ""
+    port: 20001
+    server: 38.246.236.143
+    skip-cert-verify: true
+    type: socks5
+    username: ""
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_4|1.2MB/s
     network: tcp
     port: 443
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: ""
     server: 193.160.141.8
-    skip-cert-verify: false
-    tfo: false
     tls: true
     type: vless
     udp: true
     uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    xudp: true
+    packet-encoding: xudp
+    servername: ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_5|2.3MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 147.45.46.184
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    xudp: true
+    packet-encoding: xudp
+    servername: gb.ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_5|1.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 37.235.249.43
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    xudp: true
+    packet-encoding: xudp
+    servername: ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_6|1.4MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 37.235.249.24
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    xudp: true
+    packet-encoding: xudp
+    servername: ozon.ru
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇷FR_4|1.7MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ""
+    server: 147.45.47.117
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    xudp: true
+    packet-encoding: xudp
     servername: ozon.ru
 proxy-groups:
   - name: 🚀 节点选择
