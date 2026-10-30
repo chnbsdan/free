@@ -1,41 +1,13 @@
 proxies:
-  - name: 🇨🇭CH_1|2.0MB/s
-    port: 9443
-    server: 37.120.213.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇮🇹IT_1|2.1MB/s
+  - name: 🇮🇹IT_1|2.7MB/s
+    password: None
     port: 443
     server: 185.183.105.146
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇬🇧GB_1|1017KB/s
-    port: 443
-    server: 185.164.138.156
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇹AT_1|2.5MB/s
-    port: 443
-    server: 146.70.244.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇹AT_2|2.4MB/s
-    password: None
-    port: 443
-    server: 146.70.244.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇵🇱PL_1|1000KB/s
+  - name: 🇵🇱PL_1|1.3MB/s
     password: None
     port: 443
     server: 37.120.156.34
@@ -43,91 +15,69 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 🇩🇪DE_1|3.0MB/s
+  - name: 🇩🇪DE_1|1012KB/s
     port: 443
     server: 149.36.50.157
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇸🇪SE_1|1.0MB/s
+  - name: 🇱🇺LU_1|2.3MB/s
+    password: None
     port: 443
-    server: 146.70.242.146
+    server: 185.221.132.242
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: 🇸🇪SE_2|2.6MB/s
-    password: None
-    port: 443
-    server: 146.70.242.130
+  - name: 🇨🇭CH_1|2.7MB/s
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_1|3.3MB/s
+    port: 8443
+    server: 45.150.164.18
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
   - name: 🇨🇿CZ_1|1.0MB/s
-    password: None
     port: 443
     server: 185.216.35.130
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇫🇮FI_1|1000KB/s
-    network: xhttp
-    port: 61374
-    reality-opts:
-      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-      short-id: ""
-    server: se-2.pythonsetupbib.online
+  - name: 🇨🇿CZ_2|1.5MB/s
+    port: 443
+    server: 185.216.35.66
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-    xhttp-opts:
-      host: se-2.pythonsetupbib.online
-      mode: packet-up
-      path: /
-      reuse-settings:
-        max-connections: "3"
-      x-padding-bytes: 100-500
-    xudp: true
-    packet-encoding: xudp
-    servername: se-2.pythonsetupbib.online
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇵🇱PL_2|1.4MB/s
-    network: xhttp
-    port: 61374
-    reality-opts:
-      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-      short-id: ""
-    server: cz.pythonmakemigreat.wiki
+  - name: 🇮🇹IT_2|1.1MB/s
+    password: None
+    port: 443
+    server: 185.183.105.130
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-    xhttp-opts:
-      host: cz.pythonmakemigreat.wiki
-      mode: packet-up
-      path: /
-      reuse-settings:
-        max-connections: "3"
-      x-padding-bytes: 100-500
-    xudp: true
-    packet-encoding: xudp
-    servername: cz.pythonmakemigreat.wiki
-  - client-fingerprint: chrome
-    name: 🇲🇽MX_1|1.0MB/s
-    network: tcp
-    password: 5t6i121em5lkmsmk
-    port: 15083
-    server: mx001.zestapp778.com
-    skip-cert-verify: false
-    sni: mx001.zestapp778.com
-    type: trojan
+  - name: 🇳🇴NO_1|1.1MB/s
+    password: None
+    port: 9443
+    server: 146.70.170.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_2|2.4MB/s
+    port: 44499
+    server: 45.61.188.134
+    type: socks5
     udp: true
 proxy-groups:
   - name: 🚀 节点选择

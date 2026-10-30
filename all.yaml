@@ -1,5 +1,32 @@
 proxies:
-    - name: "\U0001F1E8\U0001F1EDCH_1|2.0MB/s"
+    - name: "\U0001F1EE\U0001F1F9IT_1|2.7MB/s"
+      password: None
+      port: 443
+      server: 185.183.105.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F5\U0001F1F1PL_1|1.3MB/s"
+      password: None
+      port: 443
+      server: 37.120.156.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E9\U0001F1EADE_1|1012KB/s"
+      port: 443
+      server: 149.36.50.157
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F1\U0001F1FALU_1|2.3MB/s"
+      password: None
+      port: 443
+      server: 185.221.132.242
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s"
       password: null
       port: 9443
       server: 37.120.213.210
@@ -7,125 +34,42 @@ proxies:
       tls: true
       type: http
       username: null
-    - name: "\U0001F1EE\U0001F1F9IT_1|2.1MB/s"
-      password: null
-      port: 443
-      server: 185.183.105.146
+    - name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s"
+      port: 8443
+      server: 45.150.164.18
       skip-cert-verify: true
       tls: true
       type: http
-      username: null
-    - name: "\U0001F1EC\U0001F1E7GB_1|1017KB/s"
-      port: 443
-      server: 185.164.138.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1F9AT_1|2.5MB/s"
-      password: null
-      port: 443
-      server: 146.70.244.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E6\U0001F1F9AT_2|2.4MB/s"
-      password: None
-      port: 443
-      server: 146.70.244.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F5\U0001F1F1PL_1|1000KB/s"
-      password: None
-      port: 443
-      server: 37.120.156.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1E9\U0001F1EADE_1|3.0MB/s"
-      port: 443
-      server: 149.36.50.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s"
-      password: null
-      port: 443
-      server: 146.70.242.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F8\U0001F1EASE_2|2.6MB/s"
-      password: None
-      port: 443
-      server: 146.70.242.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
     - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
-      password: None
+      password: null
       port: 443
       server: 185.216.35.130
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|1000KB/s"
-      network: xhttp
-      port: "61374"
-      reality-opts:
-        public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-        short-id: ""
-      server: se-2.pythonsetupbib.online
-      servername: se-2.pythonsetupbib.online
+    - name: "\U0001F1E8\U0001F1FFCZ_2|1.5MB/s"
+      port: 443
+      server: 185.216.35.66
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-      xhttp-opts:
-        host: se-2.pythonsetupbib.online
-        mode: packet-up
-        path: /
-        reuse-settings:
-            max-connections: "3"
-        x-padding-bytes: 100-500
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_2|1.4MB/s"
-      network: xhttp
-      port: "61374"
-      reality-opts:
-        public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-        short-id: ""
-      server: cz.pythonmakemigreat.wiki
-      servername: cz.pythonmakemigreat.wiki
+      type: http
+    - name: "\U0001F1EE\U0001F1F9IT_2|1.1MB/s"
+      password: None
+      port: 443
+      server: 185.183.105.130
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-      xhttp-opts:
-        host: cz.pythonmakemigreat.wiki
-        mode: packet-up
-        path: /
-        reuse-settings:
-            max-connections: "3"
-        x-padding-bytes: 100-500
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F2\U0001F1FDMX_1|1.0MB/s"
-      network: tcp
-      password: 5t6i121em5lkmsmk
-      port: "15083"
-      server: mx001.zestapp778.com
-      skip-cert-verify: false
-      sni: mx001.zestapp778.com
-      type: trojan
-      udp: true
+      type: http
+      username: null
+    - name: "\U0001F1F3\U0001F1F4NO_1|1.1MB/s"
+      password: None
+      port: 9443
+      server: 146.70.170.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+      port: 44499
+      server: 45.61.188.134
+      type: socks5
