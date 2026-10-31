@@ -1,75 +1,318 @@
 proxies:
-    - name: "\U0001F1EE\U0001F1F9IT_1|2.7MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1|2.8MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.229.7
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: www.cordweave.com
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_2|2.3MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.154.144
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: www.cordweave.com
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_1|1008KB/s"
+      network: xhttp
+      port: 61374
+      reality-opts:
+        public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+      server: se-2.pythonsetupbib.online
+      servername: se-2.pythonsetupbib.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+      xhttp-opts:
+        host: se-2.pythonsetupbib.online
+        mode: packet-up
+        path: /
+        x-padding-bytes: 100-500
+    - name: "\U0001F1E8\U0001F1EDCH_1|1.3MB/s"
+      port: 9443
+      server: 149.88.27.46
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.9MB/s"
       password: None
       port: 443
-      server: 185.183.105.146
+      server: 185.164.138.156
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F5\U0001F1F1PL_1|1.3MB/s"
+    - name: "\U0001F1F7\U0001F1F8RS_1|1.2MB/s"
       password: None
       port: 443
-      server: 37.120.156.34
+      server: 146.70.221.34
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|1012KB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_3|2.5MB/s"
+      network: ws
+      password: humanity
       port: 443
-      server: 149.36.50.157
+      server: 172.64.154.219
+      servername: www.cordweave.com
       skip-cert-verify: true
+      sni: www.cordweave.com
       tls: true
-      type: http
-    - name: "\U0001F1F1\U0001F1FALU_1|2.3MB/s"
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_4|2.8MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.155.36
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_5|3.1MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 162.159.58.65
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 188.164.248.143
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 162.159.45.1
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_8|3.3MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.151.20
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_9|3.1MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.150.181
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_10|2.4MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.149.78
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_11|3.0MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.154.144
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_12|2.6MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.153.224
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_13|2.1MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.148.230
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_14|2.5MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 162.159.61.183
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_15|2.3MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.229.7
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_16|1.3MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.67.74.177
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_17|1.5MB/s"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.67.67.89
+      servername: www.cordweave.com
+      skip-cert-verify: true
+      sni: www.cordweave.com
+      tls: true
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /assignment
+    - name: "\U0001F1F1\U0001F1FALU_1|1008KB/s"
       password: None
       port: 443
       server: 185.221.132.242
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s"
-      password: null
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s"
       port: 8443
       server: 45.150.164.18
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_18|1.4MB/s"
       password: null
       port: 443
-      server: 185.216.35.130
+      server: 5.255.118.82
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1E8\U0001F1FFCZ_2|1.5MB/s"
+    - alpn:
+        - h2
+      client-fingerprint: qq
+      grpc-opts:
+        grpc-service-name: 3e99d50d5740985d
+      name: "\U0001F1F3\U0001F1F1NL_19|2.5MB/s"
+      network: grpc
       port: 443
-      server: 185.216.35.66
-      skip-cert-verify: true
+      server: api.mediaklenov.cc
+      servername: api.mediaklenov.cc
       tls: true
-      type: http
-    - name: "\U0001F1EE\U0001F1F9IT_2|1.1MB/s"
-      password: None
-      port: 443
-      server: 185.183.105.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F3\U0001F1F4NO_1|1.1MB/s"
+      type: vless
+      udp: true
+      uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+      xudp: true
+    - name: "\U0001F1E9\U0001F1EADE_1|2.8MB/s"
       password: None
       port: 9443
-      server: 146.70.170.210
+      server: 213.177.229.161
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
-      port: 44499
-      server: 45.61.188.134
-      type: socks5
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
+      password: null
+      port: 31343
+      server: 120.232.204.58
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: ❓Other_1|4.2MB/s
+      password: ""
+      port: "1080"
+      server: 121.43.176.35
+      skip-cert-verify: true
+      type: http
+      username: ""
