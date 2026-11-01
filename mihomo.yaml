@@ -1,97 +1,97 @@
 proxies:
-  - alterId: 0
+  - alterId: "1"
     cipher: auto
-    name: 🇭🇰HK_1|2.0MB/s
-    network: ws
-    port: 53617
-    server: az-1.linkaa.xyz
+    name: 🇯🇵JP_1|1.4MB/s
+    network: tcp
+    port: 28788
+    server: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
     skip-cert-verify: false
-    tls: false
+    tls: true
     type: vmess
     udp: true
-    uuid: 6E571484-4166-4699-8F58-B34A1823691F
-    ws-opts:
-      headers:
-        Host: az-1.linkaa.xyz
-      path: /game/resources
+    uuid: a3b5a6fc-0b92-3b66-beda-eb2a49361a21
     xudp: true
     packet-encoding: xudp
-    servername: az-1.linkaa.xyz
-  - alterId: 0
+    servername: wo6ah0f-g06.jp06-jz-vm0.entry.fr0528.art
+  - alterId: "1"
     cipher: auto
-    name: 🇸🇬SG_1|1.2MB/s
-    network: ws
-    port: 53437
-    server: az-1.linkaa.xyz
+    name: 🇯🇵JP_2|4.9MB/s
+    network: tcp
+    port: 28786
+    server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
     skip-cert-verify: false
-    tls: false
+    tls: true
     type: vmess
     udp: true
-    uuid: 6E571484-4166-4699-8F58-B34A1823691F
-    ws-opts:
-      headers:
-        Host: az-1.linkaa.xyz
-      path: /game/resources
+    uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
     xudp: true
     packet-encoding: xudp
-  - alterId: 0
+    servername: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
+  - name: 🇪🇸ES_1|2.7MB/s
+    password: None
+    port: 443
+    server: 130.195.250.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇩🇪DE_1|1.0MB/s
+    password: None
+    port: 9443
+    server: 213.177.229.161
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇨🇾CY_1|1001KB/s
+    port: 443
+    server: 213.207.130.34
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇫🇮FI_1|1.8MB/s
+    network: xhttp
+    port: 61374
+    reality-opts:
+      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+      short-id: ""
+    server: se-2.pythonsetupbib.online
+    tls: true
+    type: vless
+    udp: true
+    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+    xhttp-opts:
+      host: se-2.pythonsetupbib.online
+      mode: packet-up
+      path: /
+      reuse-settings:
+        max-connections: "3"
+      x-padding-bytes: 100-500
+    xudp: true
+    packet-encoding: xudp
+    servername: se-2.pythonsetupbib.online
+  - alterId: 1
     cipher: auto
-    name: 🇮🇩ID_1|1.4MB/s
-    network: ws
-    port: 55386
-    server: az-1.linkaa.xyz
-    skip-cert-verify: false
-    tls: false
+    name: 🇯🇵JP_3|4.4MB/s
+    port: 21581
+    server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+    skip-cert-verify: true
+    tls: true
     type: vmess
     udp: true
-    uuid: 6E571484-4166-4699-8F58-B34A1823691F
-    ws-opts:
-      headers:
-        Host: az-1.linkaa.xyz
-      path: /game/resources
-    xudp: true
-    packet-encoding: xudp
-    servername: az-1.linkaa.xyz
-  - name: 🇱🇺LU_1|2.5MB/s
-    password: None
-    port: 443
-    server: 185.221.132.242
+    uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+    network: tcp
+    servername: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  - name: 🇧🇩BD_1|1.5MB/s
+    password: ""
+    port: 1080
+    server: 47.245.99.1
     skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇦🇹AT_1|1021KB/s
-    password: None
-    port: 443
-    server: 146.70.244.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇬🇧GB_1|2.6MB/s
-    password: None
-    port: 443
-    server: 185.164.138.156
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_1|2.2MB/s
-    password: None
-    port: 443
-    server: 68.235.56.59
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_2|1.4MB/s
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    port: 5443
-    server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-    sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-    tls: true
-    type: http
-    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    type: socks5
+    username: ""
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
